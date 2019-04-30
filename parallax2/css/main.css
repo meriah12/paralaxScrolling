@@ -111,6 +111,23 @@ html {
   background-size: cover;
 }
 
+#group4{
+  z-index: 8;
+}
+
+#group4 .base{
+  background: url('../img/iceCreamShop.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+
+#group5{
+  z-index: 9;
+}
+
+#group5 .base{
+  background: url('../img/section1Pond.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
 /*content styles*/
 body {
   background: black;
@@ -209,6 +226,24 @@ p {
 .fig7{
   width: 5%;
   left: 40%;
+  transform: translateZ(200px) scale(.6);
+  position: absolute;
+  z-index: 999;
+}
+
+.fig8{
+  width: 15%;
+  left: 50%;
+  bottom: 40%;
+  transform: translateZ(200px) scale(.6);
+  position: absolute;
+  z-index: 999;
+}
+
+.fig9{
+  width: 20%;
+  left: 45%;
+  bottom: 25%;
   transform: translateZ(200px) scale(.6);
   position: absolute;
   z-index: 999;
