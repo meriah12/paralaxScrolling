@@ -101,29 +101,13 @@ html {
   background-size: cover;
 }
 
-#group2 .base2 {
-  background: url('../img/land-2.png') 50% 50% no-repeat;
-  background-size: cover;
-  /*opacity: .5;*/
-}
-
-#group2 .base3 {
-  background: url('../img/land-3.png') 50% 50% no-repeat;
-  background-size: cover;
-}
-
-#group2 .base4 {
-  background: url('../img/land-4.png') 50% 50% no-repeat;
-  background-size: cover;
-}
-
 /* slide over group 2*/
 #group3 {
   z-index: 7; 
 }
 
 #group3 .base {
-  background: url('http://placehold.it/960x450/ff0000') 50% 50% no-repeat;
+  background: url('../img/section2Pond.jpg') 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -153,15 +137,16 @@ h1 {
 }
 
 p {
-  font-size: 20px;
-  color: white;
+  font-size: 30px;
+  /*color: white;*/
   font-family: sans-serif;
   line-height: 40px;
   padding: 20px;
   width: 70%;
   left: 4%;
   bottom: 50%;
-  background: rgba(0, 10, 10, 0.4);
+  /*background: rgba(0, 10, 10, 0.4);*/
+  background: white;
   border-radius: 25px;
   transform: translateZ(100px) scale(0.6);
   position: absolute;
@@ -193,6 +178,46 @@ p {
   position: absolute;
   z-index: 999;
 }
+
+.fig4{
+  width: 5%;
+  left: 35%;
+  bottom: 30%;
+  transform: translateZ(200px) scale(.6);
+  position: absolute;
+  z-index: 999;
+}
+
+.fig5{
+  width: 10%;
+  left: 55%;
+  bottom: 30%;
+  transform: translateZ(200px) scale(.6);
+  position: absolute;
+  z-index: 999;
+}
+
+.fig6{
+  width: 7%;
+  left: 50%;
+  bottom: 34%;
+  transform: translateZ(200px) scale(.6);
+  position: absolute;
+  z-index: 999;
+}
+
+.fig7{
+  width: 5%;
+  left: 40%;
+  transform: translateZ(200px) scale(.6);
+  position: absolute;
+  z-index: 999;
+}
+
+/*.iceCreamParagraph{
+  text-align: center;
+  padding-left: 20%;
+}*/
 
 img {
   vertical-align: middle;
